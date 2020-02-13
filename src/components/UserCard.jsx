@@ -1,7 +1,6 @@
 import React from "react";
 
 const UserCard = (props) => {
-    console.log(props);
     return (
         <div className={'card'}>
             <h1>{props.user.name}</h1>
